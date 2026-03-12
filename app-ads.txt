@@ -1,6 +1,12 @@
 google.com, pub-5085236088670848, DIRECT, f08c47fec0942fa0
 facebook.com, 736207035259406, DIRECT, c3e20eee3f780d68
-vungle.com, 6994f48f3624616612ce3933, DIRECT, c107d686becd2d77
+inmobi.com, 722863c61ebf4190bf10a692f0216106, DIRECT, 83e75a7ae333ca9d
+conversantmedia.com, 40881, RESELLER, 03113cd04947736d
+rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 12266, RESELLER, 0bfd66d529a55807
+smaato.com, 1100053415, RESELLER, 07bcf65f187117b4
+pubmatic.com, 157097, RESELLER, 5d62403b186f2ace
+loopme.com, 9724, RESELLER, 6c8d5f95897a5a3b
 thebrave.io, 1234634, RESELLER, c25b2154543746ac
 triplelift.com, 13042, RESELLER
 triplelift.com, 14127, RESELLER, 6c33edb13117fd86
