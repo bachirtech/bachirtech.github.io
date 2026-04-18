@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BachirDev — DonTroc</title>
+  <meta name="description" content="BachirDev — Créateur de DonTroc, la plateforme de dons et d'échanges entre particuliers.">
+  <meta name="author" content="BachirDev">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="BachirDev — DonTroc">
+  <meta property="og:description" content="La plateforme de dons et d'échanges entre particuliers.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bachirtech.github.io/">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎁%3C/text%3E%3C/svg%3E">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: linear-gradient(135deg, #FFF8EE 0%, #FFE8C8 100%);
+      min-height: 100vh;
+      color: #2D3748;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 24px;
+      padding: 48px 40px;
+      max-width: 540px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(34, 160, 107, 0.15);
+      text-align: center;
+      animation: fadeInUp 0.8s ease;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo {
+      font-size: 72px;
+      margin-bottom: 8px;
+      animation: bounce 2s ease-in-out infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-8px); }
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #22A06B 0%, #0E7C5A 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      font-size: 17px;
+      color: #4A5568;
+      margin-bottom: 32px;
+    }
+
+    .description {
+      font-size: 15px;
+      color: #718096;
+      margin-bottom: 32px;
+      padding: 0 12px;
+    }
+
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #22A06B 0%, #0E7C5A 100%);
+      color: white;
+      padding: 16px 32px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      transition: all 0.25s ease;
+      box-shadow: 0 8px 20px rgba(34, 160, 107, 0.35);
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(34, 160, 107, 0.45);
+    }
+
+    .cta:active { transform: translateY(0); }
+
+    .links {
+      margin-top: 36px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(34, 160, 107, 0.15);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 20px;
+      font-size: 14px;
+    }
+
+    .links a {
+      color: #22A06B;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .links a:hover { color: #0E7C5A; text-decoration: underline; }
+
+    .links span { color: #CBD5E0; }
+
+    footer {
+      margin-top: 32px;
+      font-size: 12px;
+      color: #A0AEC0;
+      text-align: center;
+    }
+
+    footer strong { color: #4A5568; }
+
+    @media (max-width: 480px) {
+      .container { padding: 36px 24px; }
+      h1 { font-size: 28px; }
+      .logo { font-size: 60px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="logo" aria-hidden="true">🎁</div>
+    <h1>DonTroc</h1>
+    <p class="tagline">La plateforme de dons et d'échanges entre particuliers</p>
+
+    <p class="description">
+      Donnez ce dont vous n'avez plus besoin, échangez avec votre communauté,
+      gagnez des récompenses et contribuez à un monde plus solidaire — gratuitement.
+    </p>
+
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.bachirdev.dontroc"
+       target="_blank" rel="noopener">
+      📱 Télécharger sur Google Play
+    </a>
+
+    <nav class="links" aria-label="Liens légaux et support">
+      <a href="https://bachirdev.github.io/DonTroc/privacy-policy.html">Confidentialité</a>
+      <span aria-hidden="true">•</span>
+      <a href="https://bachirdev.github.io/DonTroc/terms.html">Conditions d'utilisation</a>
+      <span aria-hidden="true">•</span>
+      <a href="mailto:bachirdev.contact@gmail.com">Contact</a>
+    </nav>
+  </main>
+
+  <footer>
+    © 2026 <strong>BachirDev</strong> — Tous droits réservés
+  </footer>
+</body>
+</html>
+
