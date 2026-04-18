@@ -1,6 +1,15 @@
 google.com, pub-5085236088670848, DIRECT, f08c47fec0942fa0
 facebook.com, 736207035259406, DIRECT, c3e20eee3f780d68
 inmobi.com, 722863c61ebf4190bf10a692f0216106, DIRECT, 83e75a7ae333ca9d
+liftoff.io, 5f06b0a0c1b8a30c14c95830, DIRECT
+liftoff.io, 5f06b0a0c1b8a30c14c95830, RESELLER
+unity.com, 4747, DIRECT, 96cabb5fbdde37a7
+unityads.unity3d.com, 4747, DIRECT
+applovin.com, c9b4e3a8e2f4c4b7d8e9f0a1b2c3d4e5, RESELLER
+ironsrc.com, 542300, DIRECT, e1a5b5b6e3225bf0
+ironsrc.com, 542300, RESELLER, e1a5b5b6e3225bf0
+pangleglobal.com, 8268, DIRECT
+bytedance.com, 8268, DIRECT
 conversantmedia.com, 40881, RESELLER, 03113cd04947736d
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 12266, RESELLER, 0bfd66d529a55807
